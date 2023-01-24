@@ -1,0 +1,52 @@
+:root {
+  --white: #ffffff;
+	--field-grey: #e8e8e8;
+	--font-regular: #a0a0a0;
+	--font-dark: #757575;
+	--border-dark: #757575;
+  --icon-dark: #757575;
+  --purple-dark: #4b01d1;
+  --purple-main: #6203ee;
+  --purple-light: #d7b7fd;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0; 
+  color: var(--font-regular);
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a { text-decoration: none; }
+p { margin-top: 0; }
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
