@@ -1,0 +1,37 @@
+.top-bar {
+  background-color: var(--purple-dark);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 1em;
+  padding: 0.75em;
+}
+
+.top-icons{
+  color: var(--purple-light);
+}
+
+.title-section {
+  background-color: var(--purple-main);
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  padding: 0 1.75rem;
+  box-shadow: 0px 3px 2px 0px rgb(0 0 0 / 30%);
+}
+
+.fa-magnifying-glass {
+  margin-left: auto;
+  padding: 0 0.5rem;
+}
+
+.title-content {
+  color: var(--white);
+  font-size: 1.25rem;
+}
+
+.title-text {
+  color: var(--white);
+  font-size: 1.25rem;
+  padding: 0 0.75rem;
+}
