@@ -38,28 +38,31 @@
       </div>
 
       <form>
+    
         <div>
           <i class="fa-solid fa-user"></i>
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Name" class="input-full dark-field">
         </div>
         <div>
           <i class="fa-solid fa-phone"></i>
-          <input type="text" placeholder="Phone Number">
-          <select name="Label" id="Label">
-            <option value="Label">Label</option>
-            <option value="Cell">Cell</option>
-            <option value="Home">Home</option>
-          </select>
+          <input type="text" placeholder="Phone Number" class="phone-field">
+          <div class="select-wrapper">
+            <select name="Label" id="Label" class="label-field">
+              <option value="Label">Label</option>
+              <option value="Cell">Cell</option>
+              <option value="Home">Home</option>
+            </select>
+          </div>
         </div>
         <div>
           <i class="fa-solid fa-location-dot"></i>
-          <input type="text" placeholder="Address">
+          <input type="text" placeholder="Address" class="input-full dark-field">
         </div>
         <div>
-          <input type="text" placeholder="City">
+          <input type="text" placeholder="City" class="input-full input-city">
         </div>
         <div>
-          <select name="State" id="State">
+          <select name="State" id="State" class="dark-field half-field">
             <option value="State">State</option>
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
@@ -113,15 +116,15 @@
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
           </select>
-          <input type="number" placeholder="Zip">
+          <input type="number" placeholder="Zip" class="dark-field half-field">
         </div>
         <div>
           <i class="fa-solid fa-envelope"></i>
-          <input type="email" placeholder="Email">
+          <input type="email" placeholder="Email" class="input-full">
         </div>
         <div>
           <i class="fa-solid fa-cake-candles"></i>
-          <input type="date" placeholder="Birthday">
+          <input type="date" placeholder="Birthday" class="input-full dark-field">
         </div>
         
       </form>
