@@ -37,7 +37,7 @@
         <i class="fa-solid fa-ellipsis-vertical title-content"></i>
       </div>
 
-      <form>
+      <form class="full-form">
     
         <div>
           <i class="fa-solid fa-user"></i>
@@ -46,13 +46,11 @@
         <div>
           <i class="fa-solid fa-phone"></i>
           <input type="text" placeholder="Phone Number" class="phone-field">
-          <div class="select-wrapper">
-            <select name="Label" id="Label" class="label-field">
-              <option value="Label">Label</option>
-              <option value="Cell">Cell</option>
-              <option value="Home">Home</option>
-            </select>
-          </div>
+          <select name="Label" id="Label" class="label-field">
+            <option value="Label">Label</option>
+            <option value="Cell">Cell</option>
+            <option value="Home">Home</option>
+          </select>
         </div>
         <div>
           <i class="fa-solid fa-location-dot"></i>
@@ -62,7 +60,7 @@
           <input type="text" placeholder="City" class="input-full input-city">
         </div>
         <div>
-          <select name="State" id="State" class="dark-field half-field">
+          <select name="State" id="State" class="dark-field half-field state-field">
             <option value="State">State</option>
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
@@ -116,15 +114,15 @@
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
           </select>
-          <input type="number" placeholder="Zip" class="dark-field half-field">
+          <input type="text" placeholder="Zip" class="dark-field half-field" maxlength="5">
         </div>
         <div>
           <i class="fa-solid fa-envelope"></i>
-          <input type="email" placeholder="Email" class="input-full">
+          <input type="email" placeholder="Email" class="input-full email-field">
         </div>
         <div>
           <i class="fa-solid fa-cake-candles"></i>
-          <input type="date" placeholder="Birthday" class="input-full dark-field">
+          <input type="date" placeholder="Birthday" class="input-full dark-field birthday-field">
         </div>
         
       </form>
