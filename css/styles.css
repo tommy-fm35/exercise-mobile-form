@@ -129,10 +129,59 @@ form > div > .svg-inline--fa {
   margin-right: 1.25rem;
 }
 
-.email-field, birthday-field {
+.email-field, .birthday-field {
   margin-left: -0.25rem;
 }
 
 .birthday-field {
   padding-right: 14.25rem;
+}
+
+@media all and (max-width: 400px) {
+  body {
+    max-width: 375px;
+  }
+
+  .top-bar {
+    column-gap: 0.5rem;
+    padding: 0.375rem 0.5rem;
+  }
+
+  .title-section {
+    padding: 0 1.25rem;
+    column-gap: 1.25rem;
+  }
+
+  .input-full, .phone-field, .label-field, select, .state-field, 
+  .email-field, .birthday-field, .half-field {
+    font-size: 1rem; 
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .input-full {
+    max-width: 295px;
+    min-width: 295px;
+  }
+
+  .phone-field {
+    margin-right: 10px;
+    max-width: 175px;
+    min-width: 175px;
+  }
+
+  .label-field {
+    max-width: 105px;
+    min-width: 105px;
+  }
+
+  .state-field {
+    margin-right: 10px;
+  }
+
+  .half-field {
+    max-width: 142px;
+    min-width: 142px;
+  }
+
 }
